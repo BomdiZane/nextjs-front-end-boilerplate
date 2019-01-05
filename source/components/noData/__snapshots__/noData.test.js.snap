@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoData component: should match snapshot 1`] = `
+<WithStyles(Typography)
+  style={
+    Object {
+      "color": "crimson",
+      "textAlign": "center",
+      "width": "100%",
+    }
+  }
+  variant="h5"
+/>
+`;

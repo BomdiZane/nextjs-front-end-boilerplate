@@ -64,6 +64,11 @@ const templateStyles = {
 		justifyContent: 'flex-start',
 		alignItems: 'center',
 	},
+	accordion: {
+		root: {
+			width: '100%',
+		},
+	},
 	links: {
 		linkHolder: { 
 			display: 'flex',

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section component: should match snapshot 1`] = `
+<Section
+  className=""
+  classes={
+    Object {
+      "header": "Section-header-2",
+      "root": "Section-root-1",
+    }
+  }
+  customStyle={Object {}}
+  isHeader={false}
+/>
+`;

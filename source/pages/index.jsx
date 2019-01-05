@@ -11,12 +11,13 @@
 import { Fragment } from 'react';
 
 import DynamicHeadElements from '../components/dynamicHeadElements';
+import Users from '../components/home/users';
 //#endregion
 
 const Home = () => (
 	<Fragment>
 		<DynamicHeadElements title='Home' />
-		<h1>It works</h1>
+		<Users />
 	</Fragment>
 );
   
