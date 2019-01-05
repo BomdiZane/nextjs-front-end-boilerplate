@@ -31,6 +31,7 @@ import store from '../state/store';
 import Header from '../components/header/header';
 import Body from '../components/body/body';
 import Social from '../components/social/social';
+import Popup from '../components/popup';
 import theme from '../style/theme';
 
 const { appInfo: { apiURL } } = require('../../credentials');
@@ -93,6 +94,7 @@ class Bob extends App {
 								<div className={root}>
 									<Header />
 									<Social />
+									<Popup />
 									<Body>
 										<Component pageContext={this.pageContext} {...pageProps} />
 									</Body>

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateAccount component: should match snapshot 1`] = `
+<Connect(Apollo(CreateNew))
+  classes={
+    Object {
+      "avatar": "Connect-Apollo-CreateNew---avatar-10",
+      "buttonHolder": "Connect-Apollo-CreateNew---buttonHolder-7",
+      "form": "Connect-Apollo-CreateNew---form-8",
+      "formHolder": "Connect-Apollo-CreateNew---formHolder-1",
+      "link": "Connect-Apollo-CreateNew---link-12",
+      "linkHolder": "Connect-Apollo-CreateNew---linkHolder-11",
+      "linkText": "Connect-Apollo-CreateNew---linkText-13",
+      "menu": "Connect-Apollo-CreateNew---menu-9",
+      "section": "Connect-Apollo-CreateNew---section-2",
+      "sectionHeader": "Connect-Apollo-CreateNew---sectionHeader-3",
+      "stepper": "Connect-Apollo-CreateNew---stepper-4",
+      "textField": "Connect-Apollo-CreateNew---textField-5",
+      "textFieldFullWidth": "Connect-Apollo-CreateNew---textFieldFullWidth-6",
+    }
+  }
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+/>
+`;
