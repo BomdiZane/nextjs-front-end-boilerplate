@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component: should match snapshot 1`] = `
+<Fragment>
+  <DynamicHeadElements
+    isProtected={false}
+    title="Home"
+  />
+  <Apollo(UsersHolder) />
+</Fragment>
+`;

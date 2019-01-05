@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component: should match snapshot 1`] = `
+<Bob
+  classes={
+    Object {
+      "root": "Bob-root-1",
+    }
+  }
+/>
+`;
