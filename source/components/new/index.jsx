@@ -1,7 +1,7 @@
 //#region imports
 import newStyle from './newStyle';
 
-// import Router from 'next/router';
+import Router from 'next/router';
 import { Fragment } from 'react';
 import { graphql } from 'react-apollo';
 import { connect } from 'react-redux';
@@ -12,11 +12,12 @@ import PropTypes from 'prop-types';
 import { Typography, withStyles, Button } from '@material-ui/core';
 
 import { addNew } from './newQueries';
+import { getUsers } from '../home/usersQueries';
 import BasicInfo from './basicInfo';
 import Section from '../section/section';
 import { togglePopup } from '../../state/actions/popupActions';
 
-// const pageURL = require('../../utils/pageURL');
+const pageURL = require('../../utils/pageURL');
 //#endregion
 
 const CreateNew = ({
@@ -38,14 +39,15 @@ const CreateNew = ({
 					lastName: lastName.value,
 					password: password.value,
 					bags: Number(bags.value)
-				}
+				},
+				refetchQueries: [{ query: getUsers }]
 			});
 			togglePopup({
 				open: true,
 				variant: 'success',
 				message: 'Success!',
 			});
-			// Router.push(pageURL.home.url, pageURL.home.as);
+			Router.push(pageURL.home.url, pageURL.home.as);
 		}
 		else togglePopup({
 			open: true,
