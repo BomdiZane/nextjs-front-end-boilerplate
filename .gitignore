@@ -1,0 +1,5 @@
+node_modules
+coverageReport
+build
+.next
+*~
