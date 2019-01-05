@@ -1,8 +1,8 @@
 const env = typeof(process.env.NODE_ENV) == 'string' ? process.env.NODE_ENV.toLowerCase() : '';
 let config = {},
 	appInfo = {
-		name: 'bob-api',
-		description: 'Test api for bob user data',
+		name: 'bob-app',
+		description: 'Test app for bob user data',
 		keywords: 'bob, baggage, travel',
 		apiURL: 'http://localhost:3001/api',
 		author: 'Bomdi Munang <dzedock@yahoo.com> (https://bomdisoft.com)',

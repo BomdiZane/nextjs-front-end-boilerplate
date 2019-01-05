@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynamicHeadElements component: should match snapshot 1`] = `
+<SideEffect(Head)>
+  <title>
+    undefined - bob-api
+  </title>
+  <meta
+    content="en_US"
+    property="og:locale"
+  />
+  <meta
+    content="website"
+    property="og:type"
+  />
+  <meta
+    content="bob-api"
+    property="og:title"
+  />
+  <meta
+    content="Test api for bob user data"
+    property="og:description"
+  />
+  <meta
+    property="og:url"
+  />
+  <meta
+    content="bob-api"
+    property="og:site_name"
+  />
+  <meta
+    content="../static/images/logo.png"
+    property="og:image"
+  />
+  <meta
+    content="878555846318-p6gkt03i8k8p8i7jj37fp6cv3f5g1e95.apps.googleusercontent.com"
+    name="google-signin-client_id"
+  />
+  <link
+    rel="canonical"
+  />
+</SideEffect(Head)>
+`;

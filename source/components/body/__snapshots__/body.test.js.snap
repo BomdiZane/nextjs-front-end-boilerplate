@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body component: should match snapshot 1`] = `
+<Body
+  classes={
+    Object {
+      "content": "Body-content-1",
+    }
+  }
+/>
+`;

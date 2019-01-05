@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component: should match snapshot 1`] = `
+<footer
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "bottom": 0,
+      "boxShadow": "0 0 4px rgba(0,0,0,0.2)",
+      "display": "flex",
+      "justifyContent": "space-between",
+      "left": 0,
+      "padding": "25px 2em",
+      "position": "absolute",
+      "right": 0,
+    }
+  }
+>
+  <WithStyles(Tooltip)
+    placement="right"
+    title="Scroll to top"
+  >
+    <WithStyles(IconButton)
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "left": "calc(50% - 20px)",
+          "position": "absolute",
+          "top": "-21px",
+        }
+      }
+    >
+      <WithStyles(Avatar)
+        alt="logo"
+        src="../../static/images/logo.png"
+      />
+    </WithStyles(IconButton)>
+  </WithStyles(Tooltip)>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "position": "relative",
+        "zIndex": "5",
+      }
+    }
+  >
+    <Link
+      as="/info/about"
+      href="/info?section=about"
+    >
+      <a
+        style={
+          Object {
+            "margin": "0 1em",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <WithStyles(Typography)
+          style={
+            Object {
+              "color": "#42A5F5",
+              "cursor": "pointer",
+            }
+          }
+          variant="body1"
+        >
+          About
+        </WithStyles(Typography)>
+      </a>
+    </Link>
+    <Link
+      as="/info/termsOfService"
+      href="/info?section=termsOfService"
+    >
+      <a
+        style={
+          Object {
+            "margin": "0 1em",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <WithStyles(Typography)
+          style={
+            Object {
+              "color": "#42A5F5",
+              "cursor": "pointer",
+            }
+          }
+          variant="body1"
+        >
+          Terms
+        </WithStyles(Typography)>
+      </a>
+    </Link>
+    <Link
+      as="/info/privacyPolicy"
+      href="/info?section=privacyPolicy"
+    >
+      <a
+        style={
+          Object {
+            "margin": "0 1em",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <WithStyles(Typography)
+          style={
+            Object {
+              "color": "#42A5F5",
+              "cursor": "pointer",
+            }
+          }
+          variant="body1"
+        >
+          Privacy
+        </WithStyles(Typography)>
+      </a>
+    </Link>
+  </div>
+  <WithStyles(Typography)
+    variant="body1"
+  >
+    © 
+    2018 - 2019
+  </WithStyles(Typography)>
+</footer>
+`;

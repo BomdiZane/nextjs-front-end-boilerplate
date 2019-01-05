@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component: should match snapshot 1`] = `
+<Header
+  classes={
+    Object {
+      "appBar": "Header-appBar-1",
+      "grow": "Header-grow-2",
+      "title": "Header-title-3",
+    }
+  }
+/>
+`;
