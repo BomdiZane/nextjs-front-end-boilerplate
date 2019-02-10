@@ -2,7 +2,7 @@ version: '3'
 
 services: 
   app:
-    container_name: bob-app
+    container_name: nextjs-front-end-boilerplate
     restart: always
     ports: 
       - '3000:3000'

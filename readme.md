@@ -1,8 +1,12 @@
-# BOB test APP
+# Next/React front-end boilerplate
 
-Test APP for BOB
+Example setup for a front-end web application with Next/React, Redux, GraphQL (using Apollo Client), Material UI, Docker, Jest
 
-## Run App
+## Start App
+
+This client app relies on a server for data. You can setup your own server, or clone and run my other repo [here](https://github.com/BomdiZane/graphql-api-boilerplate.git) as a server (this is the recommended approach as i do not provide API specifications for setting up your own server that works with this client - I might add that later or simply host the server in the near future, so that no setup is required).
+
+Once you have a server setup and running, you can run the client with following commands.
 
 ```javaScript
 //WITH NPM

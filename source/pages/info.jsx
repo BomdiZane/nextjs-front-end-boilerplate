@@ -1,4 +1,4 @@
-/** Bob Info Component
+/** Info Component
  * 
  * This component dynamically presents information views to the user as requested
  * 

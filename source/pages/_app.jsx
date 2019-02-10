@@ -1,8 +1,8 @@
-/** Bob Root Component
+/** Root Component
  * 
- * A HOC that wraps subcomponents with a Redux store, Apollo provider and a Material UI Provider
+ * A HOC that wraps sub-components with a Redux store, Apollo provider and a Material UI Provider
  * This class also provides the basic structure of the application and sets up global 
- * error handling and initializations
+ * error handling and initialization
  * 
  * @version 1.0.0
  * @created - 2019.01.05
@@ -10,7 +10,7 @@
  */
 
 //#region imports
-import { BobRoot } from '../style/template';
+import { AppRoot } from '../style/template';
 import { defaultRadius } from '../style/variables';
 
 // import { StrictMode } from 'react';
@@ -47,7 +47,7 @@ Router.events.on('routeChangeStart', url => NProgress.start());
 Router.events.on('routeChangeComplete', () => NProgress.done());
 Router.events.on('routeChangeError', () => NProgress.done());
 
-class Bob extends App {
+class MyApp extends App {
 
 	constructor() {
 		super();
@@ -136,7 +136,7 @@ class Bob extends App {
 	}
 }
 
-Bob.propTypes = {
+MyApp.propTypes = {
 	classes: PropTypes.object.isRequired,
 };
 
@@ -163,4 +163,4 @@ function createPageContext() {
 	};
 }
 
-export default withStyles(BobRoot)(Bob);
+export default withStyles(AppRoot)(MyApp);

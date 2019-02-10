@@ -1,11 +1,11 @@
 const env = typeof(process.env.NODE_ENV) == 'string' ? process.env.NODE_ENV.toLowerCase() : '';
 let config = {},
 	appInfo = {
-		name: 'bob-app',
-		description: 'Test app for bob user data',
-		keywords: 'bob, baggage, travel',
+		name: 'nextjs-front-end-boilerplate',
+		description: 'Example setup for a front-end web application with Next/React, Redux, GraphQL (using Apollo Client), Material UI, Docker, Jest',
+		keywords: 'Next, React, Redux, GraphQL, Material UI, Docker, Jest',
 		apiURL: 'http://localhost:3001/api',
-		author: 'Bomdi Munang <dzedock@yahoo.com> (https://bomdisoft.com)',
+		author: 'Adombang Munang Mbomndih <dzedock@yahoo.com> (https://bomdisoft.com)',
 	};
 
 config.development = {

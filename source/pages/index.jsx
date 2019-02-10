@@ -1,4 +1,4 @@
-/** Bob Home Page
+/** Home Page
  * 
  * This component serves as the UI entry point to the application
  * 

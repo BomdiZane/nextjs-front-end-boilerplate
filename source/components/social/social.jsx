@@ -33,6 +33,11 @@ class Social extends Component {
 							<img src="../../static/images/github.png" alt="github icon" className={ icon } />
 						</a>
 					</Tooltip>
+					<Tooltip title='LinkedIn' placement="left">
+						<a href={ socialAccounts.linkedin }  target='_blank' rel='noopener noreferrer' className={ link }>
+							<img src="../../static/images/linkedin.png" alt="linkedin icon" className={ icon } />
+						</a>
+					</Tooltip>
 					<Tooltip title='Email' placement="left">
 						<a href={`mailto:${ socialAccounts.email }`} className={ link }>
 							<img src="../../static/images/email.png" alt="email icon" className={ icon } />

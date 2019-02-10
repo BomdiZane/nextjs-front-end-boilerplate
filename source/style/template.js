@@ -1,6 +1,6 @@
 import { defaultShadow, defaultRadius } from './variables';
 
-export const BobRoot = theme => ({
+export const AppRoot = theme => ({
 	root: {
 		flexGrow: 1,
 		zIndex: 1,

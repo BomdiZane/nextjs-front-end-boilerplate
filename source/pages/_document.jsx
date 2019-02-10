@@ -1,4 +1,4 @@
-/** Bob DOM Skeleton
+/** DOM Skeleton
  * 
  * A HOC that wraps the app in a configured HTML structure
  * 
@@ -13,7 +13,7 @@ import flush from 'styled-jsx/server';
 import PropTypes from 'prop-types';
 const { appInfo: { author, description, keywords }} = require('../../credentials');
 
-class BobDocument extends Document {
+class AppDocument extends Document {
 	render() {
 		const { pageContext } = this.props;
 
@@ -47,7 +47,7 @@ class BobDocument extends Document {
 	}
 }
 
-BobDocument.getInitialProps = ctx => {
+AppDocument.getInitialProps = ctx => {
 	let pageContext, css;
 
 	// Render app and page and get the context of the page with collected side effects.
@@ -82,4 +82,4 @@ BobDocument.getInitialProps = ctx => {
 	};
 };
 
-export default BobDocument;
+export default AppDocument;

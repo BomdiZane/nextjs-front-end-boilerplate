@@ -15,7 +15,7 @@ const Header = ({ classes }) => (
 		<Toolbar>
 			<Link href={ pageURL.home.url } as={ pageURL.home.as } prefetch passHref>
 				<Typography className={ classes.title } variant="h5" color="inherit" noWrap>
-					BOB
+					App Name
 				</Typography>
 			</Link>
 			<div className={ classes.grow } />

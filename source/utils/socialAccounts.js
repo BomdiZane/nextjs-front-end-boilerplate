@@ -3,5 +3,5 @@ export default {
 	twitter: 'https://twitter.com',
 	facebook: 'https://facebook.com',
 	email: 'dzedock@gmail.com',
-	mobile: '+372 5878 1144',
+	mobile: '+372 5555 1111',
 };

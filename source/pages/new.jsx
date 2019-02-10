@@ -1,4 +1,4 @@
-/** Bob New Component
+/** New Component
  * 
  * This component presents a view to the user for creating an new order
  * 

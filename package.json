@@ -1,13 +1,9 @@
 {
-  "name": "bob-test-app",
+  "name": "nextjs-front-end-boilerplate",
   "version": "1.0.0",
-  "description": "Test app for bob user data",
-  "keywords": [
-    "bob",
-    "baggage",
-    "travel"
-  ],
-  "author": "Bomdi Zane <dzedock@yahoo.com> (https://bomdisoft.com)",
+  "description": "Example setup for a front-end web application with Next/React, Redux, GraphQL (using Apollo Client), Material UI, Docker, Jest",
+  "keywords": [ "Next", "React", "Redux", "GraphQL using Apollo Client", "Material UI", "Docker", "Jest"],
+  "author": "Adombang Munang Mbomndih <dzedock@yahoo.com> (https://bomdisoft.com)",
   "contributors": [],
   "engines": {
     "node": ">=10.0.0",
